@@ -19,7 +19,7 @@ class MapViewController: UIViewController {
         if CLLocationManager.locationServicesEnabled() {
             checkLocationAuthorization()
         } else {
-            // alert
+            // alert the user
             userLocationDeniedAlert()
         }
     }
